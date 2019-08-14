@@ -1,0 +1,54 @@
+header
+.menu-telefones{
+    background-color: #020085;
+    text-align: right;
+}
+.menu-telefones label{
+   color: white;
+    text-align: right;
+    padding-right: 50px;
+}
+.menu{
+    background-color: #ffffff;
+}
+.menu li{
+    float: left;
+    padding-left: 50px;
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #828282;
+}
+.menu li a{
+    color: #828282;
+    font-weight: bold;
+}
+.menu-completo{
+    height: 100px;
+}
+.menu-completo a img{
+    width: 25%;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+/*ajustes mobile no geral*/
+@media (max-width: 767px) {
+    .menu li{
+        padding-left: 20px;
+    }
+}
+
+/*ajuste para ipad*/
+@media (min-width: 768px) and (max-width: 1023px){
+    .menu li{
+        margin-left: -45px;
+    }
+}
+
+/*ajuste resolução iphone*/
+@media (min-width: 320px) and (max-width: 528px){
+    .menu li{
+        padding-left: 7px !important;
+    }
+}

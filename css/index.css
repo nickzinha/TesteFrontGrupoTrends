@@ -1,0 +1,163 @@
+/*parte que esta escrito teste de html e css*/
+.teste-hmtl h1{
+    color: #828282;
+    margin-left: 50px;
+}
+.img-teste img{
+    margin-top: -180px;
+    margin-right: 280px;
+    margin-bottom: 50px;
+    float: right;
+}
+.teste-hmtl h1{
+    color: #828282;
+    margin-left: 180px;
+}
+.teste-hmtl p{
+    margin-left: 180px;
+}
+.teste-hmtl ul{
+    margin-left: 180px;
+}
+
+/*box destaque parte do titulo*/
+.box-destaque h1{
+    color: #828282;
+    margin-left: 180px;
+}
+
+/*box destaque parte das imagens*/
+.img-01 img{
+    margin-left: 180px;
+}
+
+.img-02 img{
+    margin-top: -240px;
+    margin-left: 400px;
+}
+
+.img-03 img{
+    margin-top: -242px;
+    margin-left: 620px;
+}
+
+.img-04 img{
+    margin-top: -244px;
+    margin-left: 850px;
+}
+
+/*box destaque parte do texto com link*/
+.img-01 a p{
+    margin-left: 180px;
+}
+
+.img-02 a p{
+    margin-top: -47px;
+    margin-left: 400px;
+}
+.img-03 a p{
+    margin-top: -47px;
+    margin-left: 620px;
+}
+.img-04 a p{
+    margin-top: -47px;
+    margin-left: 850px;
+}
+
+/*css para dispositivos mobile*/
+@media (max-width: 767px){
+    .img-01 a p{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+
+    .img-02 a p{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+    .img-03 a p{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+    .img-04 a p{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+
+    .img-01 img{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+
+    .img-02 img{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+
+    .img-03 img{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+
+    .img-04 img{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+    .box-destaque h1{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .img-teste img{
+        margin-top: 0px;
+        margin-left: 3px;
+        float: none;
+    }
+    .teste-hmtl h1{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .teste-hmtl p{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .teste-hmtl ul{
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+/*ipad*/
+@media (min-width: 768px) and (max-width: 1023px){
+    .teste-hmtl h1{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .teste-hmtl p{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .teste-hmtl ul{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .img-03 a p{
+        margin-top: 0px;
+        margin-left: 180px;
+    }
+    .img-04 a p{
+        margin-left: 410px;
+        margin-top: -46px;
+    }
+    .img-03 img{
+        margin-top: 0px;
+        margin-left: 180px;
+    }
+
+    .img-04 img{
+        margin-left: 400px;
+        margin-top: -240px;
+    }
+    .img-teste img{
+        margin-top: 0px;
+    }
+}

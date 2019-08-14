@@ -1,0 +1,37 @@
+footer
+
+/*toda a parte do footer*/
+.parte-final{
+    height: 150px;
+    background-color: #454545;
+}
+
+/*parte do mapa do site (menu)*/
+.menu-do-footer{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 25px;
+}
+.menu-do-footer span a{
+    color: #a5a5a5;
+    margin-right: 20px;
+}
+
+/*parte do rodape*/
+.parte-final p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*ajuste do mobile*/
+@media (max-width: 767px){
+    .menu-do-footer{
+        font-size: 12px;
+    }
+    .menu-do-footer span a{
+        margin-right: 12px;
+    }
+}
